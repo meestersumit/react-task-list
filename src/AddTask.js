@@ -10,7 +10,7 @@ const AddTask = ({ addTask }) => {
       alert('Enter date and name');
       return;
     }
-    console.log('Add Task Submitted from Add Task component');
+
     addTask({ name, date });
   };
 
